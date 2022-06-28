@@ -1,2 +1,6 @@
 Defaults:
   policyProject: 'create-customer-policy'
+ResourceManagers:
+  RecordedMessageManager:
+    recordedMessagePath: '/tmp'         # Set the directory to store recorded messages
+    recordAllMessages: true        # Set to 'true' to enabling recording of messages from all message flows
